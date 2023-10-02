@@ -1,0 +1,104 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+
+
+
+.container{
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem;
+   
+
+}
+
+.card {
+   margin-top: 2rem;
+   border-collapse: collapse; /* Mesclar as bordas de células adjacentes */
+   width: 100%;
+
+}
+
+.card th{
+   border: 1px solid black; /* Adicionar uma borda de 1px sólida em torno da tabela, células e cabeçalhos */
+   text-align: center; /* Alinhar o conteúdo centralmente em células e cabeçalhos */
+   padding: 8px; /* Adicionar espaço interno para melhorar o visual */
+}
+
+.card td{
+   border: 1px solid black; /* Adicionar uma borda de 1px sólida em torno da tabela, células e cabeçalhos */
+   text-align: center; /* Alinhar o conteúdo centralmente em células e cabeçalhos */
+   padding: 8px; /* Adicionar espaço interno para melhorar o visual */
+}
+
+
+
+.list{
+   border: 1px solid;
+}
+
+.corpo{
+   border: 1px solid;
+}
+
+.cardBody td{
+  
+   margin: 1rem;
+   
+}
+
+.cardBody th{
+   border: 1px solid;
+
+}
+
+
+
+.cardBody{
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    background-color: red;
+    margin-top: 2rem;
+    border: 1px solid;
+  
+   
+   
+}
+
+.ule{
+   background-color: #000000;
+}
+
+
+.pag{
+    background-color: transparent;
+    border-radius: 15px;
+    color: #000000;
+    font-weight:600;
+    border: none;
+    padding: 0.4rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    transition: box-shadow 0.3s ease;
+ }
+
+ .pag:hover{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+ }
+
+ 
+
+.tit{
+    color: #007bff;
+};

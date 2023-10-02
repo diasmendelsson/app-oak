@@ -1,0 +1,96 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.tit{
+    color: #007bff;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    margin-top: 2rem;
+   
+}
+
+.input1{
+   margin-left: 2.4rem;
+   outline: none;
+}
+
+.input2{
+    margin-left: 0.5rem;
+    outline: none;
+}
+
+.input3{
+    margin-left: 2.7rem;
+    outline: none;
+ }
+
+ .select{
+    margin-left: 1rem;
+    cursor: pointer;
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+ }
+
+ .option{
+    cursor: pointer;
+ }
+
+
+ .pag{
+    background-color: transparent;
+    border-radius: 15px;
+    color: #000000;
+    font-weight:600;
+    border: none;
+    padding: 0.4rem;
+    transition: box-shadow 0.3s ease;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+ }
+
+ .pag:hover{
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+ }
+
+
+
+.btn{
+
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight:600;
+
+  /* Adicione uma transição suave para a propriedade box-shadow */
+  transition: box-shadow 0.3s ease;
+}
+
+.btn:hover{
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+ 
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  
+}
+
